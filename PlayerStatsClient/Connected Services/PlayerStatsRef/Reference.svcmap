@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="44ecdceb-7654-41bd-8ac2-7df67b48df96" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:63063/PlayerStatsService" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="PlayerStatsService.xsd" MetadataType="Schema" ID="a57f219f-1547-465a-a50f-ab252ae29068" SourceId="1" SourceUrl="http://localhost:63063/PlayerStatsService?xsd=xsd1" />
+    <MetadataFile FileName="PlayerStatsService.wsdl" MetadataType="Wsdl" ID="b0559583-a893-4fc3-a6d4-b4a2137e5783" SourceId="1" SourceUrl="http://localhost:63063/PlayerStatsService?wsdl" />
+    <MetadataFile FileName="PlayerStatsService1.xsd" MetadataType="Schema" ID="9211cbbd-3971-4f66-b2e6-24011a01da0e" SourceId="1" SourceUrl="http://localhost:63063/PlayerStatsService?xsd=xsd2" />
+    <MetadataFile FileName="PlayerStatsService.disco" MetadataType="Disco" ID="6b0051c8-a144-4b81-ab06-09b5ac9627a8" SourceId="1" SourceUrl="http://localhost:63063/PlayerStatsService?disco" />
+    <MetadataFile FileName="PlayerStatsService2.xsd" MetadataType="Schema" ID="fff8f3dd-5d06-46d1-a4b2-53c4eaa7d774" SourceId="1" SourceUrl="http://localhost:63063/PlayerStatsService?xsd=xsd0" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
